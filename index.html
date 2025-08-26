@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mastering JavaScript Fundamentals</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="main-content">
+        <main class="container">
+            <h1 id="heading">Mastering JavaScript Fundamentals</h1>
+
+
+            <!-- Part 1: Inputs + conditional demo -->
+            <section id="part1">
+            <h2>Part 1 — Basics (Variables & Conditionals)</h2>
+            <label for="ageInput">Enter your age:</label>
+            <input id="ageInput" type="number" placeholder="e.g. 20" />
+            <button id="checkAgeBtn">Check Age</button>
+            <p id="ageResult" class="output"></p>
+            </section>
+
+
+            <!-- Part 2: Functions demo -->
+            <section id="part2">
+            <h2>Part 2 — Functions</h2>
+            <label for="itemsInput">Enter comma-separated item prices (numbers):</label>
+            <input id="itemsInput" placeholder="10, 5.5, 3" />
+            <button id="calcTotalBtn">Calculate Total</button>
+            <p id="totalResult" class="output"></p>
+            </section>
+
+
+            <!-- Part 3: Loops demo -->
+            <section id="part3">
+            <h2>Part 3 — Loops</h2>
+            <button id="generateListBtn">Generate Sample List (for loop)</button>
+            <ul id="sampleList"></ul>
+
+
+            <button id="countdownBtn">Start Countdown (while loop)</button>
+            <p id="countdownDisplay"></p>
+            </section>
+
+
+            <!-- Part 4: DOM interactions -->
+            <section id="part4">
+            <h2>Part 4 — DOM Manipulation</h2>
+            <div class="controls">
+            <button id="toggleThemeBtn">Toggle Highlight</button>
+            <button id="addItemBtn">Add New Item (creates element)</button>
+            <button id="clearOutputBtn">Clear Generated Content</button>
+            </div>
+
+
+            <div id="dynamicArea">
+            <p id="dynamicMessage">This area will be updated by JavaScript.</p>
+            </div>
+        </main>   
+    </body
+        <script>
+            console.log("script inline test: index.html loaded");
+        </script>
+        <script src="script.js"></script> 
+</html>
